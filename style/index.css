@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration:none;
+}
+
+body{
+  background-color: #FED801;
+}
+
+wrap{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  width: 1280px;
+  height: 720px;
+  margin: 0 auto;
+}
+
+logo{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-bottom: 114px;
+}
+logo .logo1{
+  width: 119px;
+  height: 75px;
+}
+logo .logo2{
+ width: 245px;
+ height: 47px;
+}
+logo h2{
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.92em;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav .btn{
+  width: 244px;
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+nav .btn:hover, .btn:active{
+  color: #FED801;
+  background-color: #000;
+  transition: all 0.2s;
+}
+
+footer{
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+}
+footer p{
+  text-align:right;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.H2_TC{
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
